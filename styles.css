@@ -1,0 +1,61 @@
+div .container{width: 300px;
+  padding: 10px;}
+
+header{width: 100%;}
+div .formYCard1 .d-flex .justify-content-around .mt-3{width: 100%;}
+div .container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+    
+}
+
+
+#myCarousel {
+    height: 400px;
+
+  }
+section .carrusel{height: 450px;}
+
+#myCarousel{padding-left: 20%;
+padding-right: 20%;
+margin-top: 4%;
+margin-bottom: 2%;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+#bod{display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+height:100%; 
+background-color: rgba(51, 17, 3, 0.103);}
+
+footer{
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  rgba(51, 17, 3, 0.103);
+  margin-top: 4%;
+  
+  
+}
+
+footer .ic{display: flex;
+  flex-direction: row;
+   justify-content: space-evenly;
+    width: 195px;
+    height: 130px;
+   padding-top: 55px;
+}
+
+footer .ftr{display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;}
+
+div .ftx{display: flex;
+  justify-content: center;
+ align-items: center;
+padding-top: 20px}

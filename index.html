@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Backpackers Network</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&family=Manrope&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body id="bod" >
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fw-bold" style="width: auto; margin: 0%; ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Backpackers Network</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Comunidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/perfil.html">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <img src="images/icono.png" alt="hombremontaña" height="55px" width="55px" style="margin-right: 3%;">
+    </nav>
+    
+  </header>
+
+  <div class="formYCard1 d-flex flex-wrap  mt-3 justify-content-center col-12 d-grid" style="margin-left:5%;background-image: url(images/fm1.jpeg); background-repeat: no-repeat;;background-size: cover; background-position: bottom;padding-top: 2%;padding-bottom: 2%; margin-left: 0%;margin-bottom: 5%;" >
+    <div class="container m-1  d-flex flex-wrap justify-content-center text-ligth col-3 " style="max-height: 531px;background-color: rgba(240, 248, 255, 0.021);"  class="container-fluid "  >
+      <div class="row" style="margin: 15px;">
+          <form style="background-color: rgba(0, 0, 0, 0.055); display: flex; align-items: center; flex-wrap: wrap;" >
+            <div class="form-row ">
+              <div  class="mb-3 mt-3">
+                <label for="inputDestination" class="text-light">Destino</label>
+                <input type="text" class="form-control mqy" id="inputDestination" placeholder="¿A dónde quieres ir?">
+              </div>
+              <div class="mb-3">
+                <label for="inputCheckIn" class="text-light mqy">Llegada</label>
+                <input type="date" class="form-control mqy" id="inputCheckIn">
+              </div>
+              <div class="mb-3">
+                <label for="inputCheckOut" class="text-light">Salida</label>
+                <input type="date" class="form-control mqy" id="inputCheckOut">
+              </div>
+              <div class="mb-5">
+                <label for="inputGuests"class="text-light">Huéspedes</label>
+                <select class="form-control mb-3" id="inputGuests">
+                  <option>1 huésped</option>
+                  <option>2 huéspedes</option>
+                  <option>3 huéspedes</option>
+                  <option>4 huéspedes</option>
+                  <option>5 huéspedes</option>
+                </select>
+              </div>
+              <div >
+                <button type="submit" class="btn btn-secondary btn-block">Buscar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+    </div>
+   <div class="d-flex flex-row mb-3 grid gap-5 justify-content-center d-flex flex-wrap col-9 " style="max-height: fit-content "  >                         
+    <div class="card" style="width: 30rem; max-height: 650px;" >
+      <img src="images/camp.jpg" class="card-img-top" alt="camping" class="img-fluid">
+      <div class="card-body">
+        <h2 class="card-title fs-1 fw-bold">Campings</h2>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perspiciatis qui ea illo reprehenderit molestias repellat necessitatibus quod repudiandae laborum a maxime at, saepe et voluptatibus eaque dignissimos perferendis beatae.</p>
+      </div>
+       <div class="card-body">
+        <a href="#" class="card-link fw-bold">Go</a>
+        
+      </div>
+    </div>
+      <div class="card " style="width: 30rem;max-height: 650px;">
+                      <img src="images/hostel.jpg" class="card-img-top" alt="pilehoste" class="img-fluid" style="max-height: 395px;">
+                      <div class="card-body">
+                        <h1 class="card-title fs-1 fw-bold">Hostels</h1>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perspiciatis qui ea illo reprehenderit molestias repellat necessitatibus quod repudiandae laborum a maxime at, saepe et voluptatibus eaque dignissimos perferendis beatae.</p>
+                      </div>
+                       <div class="card-body">
+                        <a href="#" class="card-link fw-bold">Go</a>
+                        
+                      </div>
+      </div>
+      <div class="card " style="width: 30rem;max-height: 650px;">
+                      <img src="images/excur.jpg" class="card-img-top" alt="caminatas" class="img-fluid" style="max-height: 395px;">
+                      <div class="card-body">
+                        <h4 class="card-title fs-1 fw-bold">Expediciones</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perspiciatis qui ea illo reprehenderit molestias repellat necessitatibus quod repudiandae laborum a maxime at, saepe et voluptatibus eaque dignissimos perferendis beatae.</p>
+                      </div>
+                       <div class="card-body">
+                        <a href="#" class="card-link fw-bold">Go</a>
+                        
+                      </div>
+      </div>
+      <div class="card " style="width: 30rem;max-height: 650px;">
+      <img src="images/caba.jpg" class="card-img-top" alt="cabaña" class="img-fluid" style="max-height: 395px;">
+       <div class="card-body">
+        <h5 class="card-title fs-1 fw-bold">Cabañas</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perspiciatis qui ea illo reprehenderit molestias repellat necessitatibus quod repudiandae laborum a maxime at, saepe et voluptatibus eaque dignissimos perferendis beatae.</p>
+      </div>
+      <div class="card-body">
+      <a href="#" class="card-link fw-bold">Go</a>             
+        </div>
+        </div>
+                    
+                    
+                   
+             
+          
+       
+   </div>
+   </div> 
+    
+   <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 5%;">
+    <!-- Indicatrs -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+  
+    <!-- Wrapper fo slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/cr1.jpg" alt="Chania" style="width: 100%; height: 500px; background-size: cover;" class="img-fluid">
+      </div>
+  
+      <div class="item">
+        <img src="images/cr2.jpg" alt="Chania" style="width: 100%; height: 500px; background-size: cover; " class="img-fluid" >
+      </div>
+  
+      <div class="item">
+        <img src="images/cr3.jpg" alt="Flower" style="width: 100%; height: 500px; background-size: cover;" class="img-fluid">
+      </div>
+    </div>
+  
+   <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+ 
+  <section>
+    
+  </section>
+<footer>
+  <div class="ftr">
+  <div>
+    <div class="ic">
+  
+    <div>
+    <a href="https://es-la.facebook.com/"><img src="images/facebook.png" alt="face" width="35px" height="35px"></a>
+  </div>
+  <div>
+    <a href="https://twitter.com/i/flow/login"><img src="images/signo-de-twitter.png" alt="twit" width="35px" height="35px"></a>
+  </div>
+  <div>
+    <a href="https://www.instagram.com/"><img src="" alt=""><img src="images/instagram.png" alt="insta" width="35px" height="35px"></a>
+  </div>
+</div>
+
+</div>
+<div class="ftx">
+  <p >© 2023 Backpackers Network. Todos los derechos reservados.</p>
+</div>
+</div>
+
+</footer>
+   
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
