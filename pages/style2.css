@@ -21,9 +21,7 @@ footer{
     align-items: center;
     background-color:  rgba(51, 17, 3, 0.103);
     margin-top: 4%;
-    
-    
-  }
+ }
   
   footer .ic{display: flex;
     flex-direction: row;
@@ -37,9 +35,9 @@ footer{
   flex-direction: row;
   justify-content: center;
   justify-content: space-evenly;
-
-  align-items: center;}
+  align-items: center;
+}
   div .ftx{display: flex;
-     justify-content: center;
-    align-items: center;
-  padding-top: 20px;}
+          justify-content: center;
+          align-items: center;
+          padding-top: 20px;}

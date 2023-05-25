@@ -8,14 +8,13 @@
     <title>Backpackers Network</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">                              
 <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&family=Manrope&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
 
-<body id="bod" >
+<body class="container-fluid" id="bodx" >
   <header>
     <nav class="navbar navbar-expand-md navbar-light bg-light fw-bold" style="width: auto; margin: 0%; ">
       <div class="container-fluid">
@@ -42,130 +41,96 @@
     
   </header>
 
-  <div class="formYCard1 d-flex flex-wrap  mt-3 justify-content-center col-12 d-grid" style="margin-left:5%;background-image: url(images/fm1.jpeg); background-repeat: no-repeat;;background-size: cover; background-position: bottom;padding-top: 2%;padding-bottom: 2%; margin-left: 0%;margin-bottom: 5%;" >
-    <div class="container m-1  d-flex flex-wrap justify-content-center text-ligth col-3 " style="max-height: 531px;background-color: rgba(240, 248, 255, 0.021);"  class="container-fluid "  >
-      <div class="row" style="margin: 15px;">
-          <form style="background-color: rgba(0, 0, 0, 0.055); display: flex; align-items: center; flex-wrap: wrap;" >
-            <div class="form-row ">
-              <div  class="mb-3 mt-3">
-                <label for="inputDestination" class="text-light">Destino</label>
-                <input type="text" class="form-control mqy" id="inputDestination" placeholder="¿A dónde quieres ir?">
-              </div>
-              <div class="mb-3">
-                <label for="inputCheckIn" class="text-light mqy">Llegada</label>
-                <input type="date" class="form-control mqy" id="inputCheckIn">
-              </div>
-              <div class="mb-3">
-                <label for="inputCheckOut" class="text-light">Salida</label>
-                <input type="date" class="form-control mqy" id="inputCheckOut">
-              </div>
-              <div class="mb-5">
-                <label for="inputGuests"class="text-light">Huéspedes</label>
-                <select class="form-control mb-3" id="inputGuests">
-                  <option>1 huésped</option>
-                  <option>2 huéspedes</option>
-                  <option>3 huéspedes</option>
-                  <option>4 huéspedes</option>
-                  <option>5 huéspedes</option>
-                </select>
-              </div>
-              <div >
-                <button type="submit" class="btn btn-secondary btn-block">Buscar</button>
-              </div>
-            </div>
-          </form>
+<main class="main1">
+  <section class="contform m-5">
+    <form class="frhome "  >
+      <div class="form-row ">
+        <div  class="mb-3 mt-3">
+          <label for="inputDestination" class="text-light">Destino</label>
+          <input type="text" class="form-control mqy" id="inputDestination" placeholder="¿A dónde quieres ir?">
         </div>
-    </div>
-   <div class="d-flex flex-row mb-3 grid gap-5 justify-content-center d-flex flex-wrap col-9 " style="max-height: fit-content "  >                         
-    <div class="card" style="width: 30rem; max-height: 650px;" >
-      <img src="images/camp.jpg" class="card-img-top" alt="camping" class="img-fluid">
-      <div class="card-body">
-        <h2 class="card-title fs-1 fw-bold">Campings</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perspiciatis qui ea illo reprehenderit molestias repellat necessitatibus quod repudiandae laborum a maxime at, saepe et voluptatibus eaque dignissimos perferendis beatae.</p>
-      </div>
-       <div class="card-body">
-        <a href="#" class="card-link fw-bold">Go</a>
-        
-      </div>
-    </div>
-      <div class="card " style="width: 30rem;max-height: 650px;">
-                      <img src="images/hostel.jpg" class="card-img-top" alt="pilehoste" class="img-fluid" style="max-height: 395px;">
-                      <div class="card-body">
-                        <h1 class="card-title fs-1 fw-bold">Hostels</h1>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perspiciatis qui ea illo reprehenderit molestias repellat necessitatibus quod repudiandae laborum a maxime at, saepe et voluptatibus eaque dignissimos perferendis beatae.</p>
-                      </div>
-                       <div class="card-body">
-                        <a href="#" class="card-link fw-bold">Go</a>
-                        
-                      </div>
-      </div>
-      <div class="card " style="width: 30rem;max-height: 650px;">
-                      <img src="images/excur.jpg" class="card-img-top" alt="caminatas" class="img-fluid" style="max-height: 395px;">
-                      <div class="card-body">
-                        <h4 class="card-title fs-1 fw-bold">Expediciones</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perspiciatis qui ea illo reprehenderit molestias repellat necessitatibus quod repudiandae laborum a maxime at, saepe et voluptatibus eaque dignissimos perferendis beatae.</p>
-                      </div>
-                       <div class="card-body">
-                        <a href="#" class="card-link fw-bold">Go</a>
-                        
-                      </div>
-      </div>
-      <div class="card " style="width: 30rem;max-height: 650px;">
-      <img src="images/caba.jpg" class="card-img-top" alt="cabaña" class="img-fluid" style="max-height: 395px;">
-       <div class="card-body">
-        <h5 class="card-title fs-1 fw-bold">Cabañas</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perspiciatis qui ea illo reprehenderit molestias repellat necessitatibus quod repudiandae laborum a maxime at, saepe et voluptatibus eaque dignissimos perferendis beatae.</p>
-      </div>
-      <div class="card-body">
-      <a href="#" class="card-link fw-bold">Go</a>             
+        <div class="mb-3">
+          <label for="inputCheckIn" class="text-light mqy">Llegada</label>
+          <input type="date" class="form-control mqy" id="inputCheckIn">
         </div>
+        <div class="mb-3">
+          <label for="inputCheckOut" class="text-light">Salida</label>
+          <input type="date" class="form-control mqy" id="inputCheckOut">
         </div>
-                    
-                    
-                   
-             
-          
-       
-   </div>
-   </div> 
-    
-   <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 5%;">
-    <!-- Indicatrs -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-  
-    <!-- Wrapper fo slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="images/cr1.jpg" alt="Chania" style="width: 100%; height: 500px; background-size: cover;" class="img-fluid">
+        <div class="mb-5">
+          <label for="inputGuests"class="text-light">Huéspedes</label>
+          <select class="form-control mb-3" id="inputGuests">
+            <option>1 huésped</option>
+            <option>2 huéspedes</option>
+            <option>3 huéspedes</option>
+            <option>4 huéspedes</option>
+            <option>5 huéspedes</option>
+          </select>
+        </div>
+        <div >
+          <button type="submit" class="btn btn-secondary btn-block">Buscar</button>
+        </div>
       </div>
-  
-      <div class="item">
-        <img src="images/cr2.jpg" alt="Chania" style="width: 100%; height: 500px; background-size: cover; " class="img-fluid" >
-      </div>
-  
-      <div class="item">
-        <img src="images/cr3.jpg" alt="Flower" style="width: 100%; height: 500px; background-size: cover;" class="img-fluid">
-      </div>
-    </div>
-  
-   <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
- 
-  <section>
-    
+    </form>
   </section>
+  <section class="cmain container-fluid">
+    <article class="card m-5" >
+      <img src="images/camppingcard.jpg"  alt="camping" class="imr">
+      <div class="card-body">
+        <h5 >Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </article>
+    <article class="card m-5" >
+      <img src="images/camppingcard.jpg"  alt="camping" class="imr">
+      <div class="card-body">
+        <h5 >Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div> 
+    </article>
+    <article class="card m-5" >
+      <img src="images/camppingcard.jpg"  alt="camping" class="imr">
+      <div class="card-body">
+        <h5 >Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </article>
+    <article class="card m-5" >
+      <img src="images/camppingcard.jpg"  alt="camping" class="imr">
+      <div class="card-body">
+        <h5 >Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </article>
+   </section>
+</main>
+<section class="container-fluid sectcar m-3 ">
+  <article id="carouselExample" class="carousel slide clcarru ">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/imgcarrucel-a.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/imgcarrusel-b.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/imgcarrucel-c.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </article>
+</section>
 <footer>
   <div class="ftr">
   <div>
@@ -189,22 +154,8 @@
 </div>
 
 </footer>
-   
- 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
-
-
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </body>
-
 </html>
