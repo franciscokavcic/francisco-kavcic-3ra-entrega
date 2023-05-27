@@ -254,20 +254,48 @@ section .sectcar {
   display: flex;
   flex-direction: row;
   height: auto;
-  
+
+
 }
 
+
 /*primer contenedor*/
+.conmedia {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2;
+  justify-content: space-evenly;
+}
+
+@media (max-width:1455px) {
+  .r-a-w {
+    display: none;
+
+
+  }
+
+}
+
+@media (max-width:1000px) {
+  .r-a-w {
+    display: block;
+
+
+  }
+
+}
+
 @media (max-width:1600px) {
   .conmedia {
     display: flex;
+    gap: 1;
     flex-wrap: wrap;
   }
 
   .mediatupost {
     display: flex;
     flex-direction: row;
-    gap: auto;
+    gap: 1;
 
   }
 }
@@ -281,6 +309,7 @@ section .sectcar {
     justify-content: center;
     padding: auto;
     margin: auto;
+    gap: 1;
   }
 
   .conmedia {
@@ -292,13 +321,26 @@ section .sectcar {
     padding: auto;
     margin: auto;
     vertical-align: middle;
+    gap: 3;
+
+
   }
 
+  .sectmap iframe {
+    display: none;
+  }
 
   .post {
     max-width: 350px;
     height: auto;
     margin: auto;
+  }
+
+  .postbuscar {
+    max-width: 350px;
+    height: auto;
+    margin: auto;
+
   }
 }
 
@@ -309,11 +351,11 @@ section .sectcar {
   flex-direction: row;
   flex-wrap: wrap;
   width: 500px;
-  height: auto;
+  max-height: 600px;
   margin: 1%;
   padding: 1%;
   box-shadow: 0 0 10px 5px rgba(0 0, 0, 0.5);
-  
+
 
 }
 
@@ -341,12 +383,12 @@ section .sectcar {
 
 
 }
-.postbuscar{display: flex;
+
+.postbuscar {
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-   width: 450px;
+  width: 450px;
   height: 300px;
   margin: 1%;
   margin-top: 3%;
@@ -356,13 +398,15 @@ section .sectcar {
   border-radius: 5px;
   box-shadow: 0 0 10px 5px rgba(0 0, 0, 0.5);
   gap: 4;
+}
 
-
-
-
+.postbuscar img {
+  width: 85px;
+  border-radius: 5px;
 }
 
 .imgp {
+
   border-radius: 5px;
   box-shadow: 0 0 10px 5px rgba(0 0, 0, 0.5)
 }
