@@ -9,10 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
 
+
     <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&family=Manrope&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../styles.css">
 </head>
+
 
 <body class="bodcomunidad container-fluid" id="bodx">
     <header>
@@ -51,26 +53,33 @@
                 <div>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d48802.30110910004!2d-71.34082013557257!3d-40.139080033047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1685182139978!5m2!1ses-419!2sar"
-                        width="400" height="350" style="border: 3px;;" allowfullscreen="" loading="lazy"
+                        width="400" height="350" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </article>
         </section>
         <section class="col-12">
+
             <article class="postbuscar container-fluid col-3">
-             <img src="../images/avatr.jpg" alt="avatar">
+                <div>
+                    <img src="../images/avatr.jpg" alt="avatar">
+                    <p>Datos personales</p>
+                </div>
 
-                <form action="buscar">
-                    <label for="busqueda">Buscar Post</label>
-                    <input type="text" id="busq" name="buscar" placeholder="buscar">
-                </form>
-
-                <form>
-                    <label for="imagen"></label>
-                    <input type="file" id="imagen" name="imagen">
-                    <button type="submit">Enviar</button>
-                </form>
-
+                <div class="d-busqueda">
+                    <form action="buscar">
+                        <label for="busqueda">Buscar Post</label>
+                        <input class="in-po" type="text" id="busq" name="buscar" placeholder="buscar">
+                        <button class="btn btn-lg btn-secondary  fs-6">busqueda</button>
+                        <hr>
+                    </form>
+                    <div class="inputbusqueda">
+                        <input class="in-busqueda" type="text" class="text-input" placeholder="Crea tu reseña">
+                        <label for="file-upload" class="file-upload-label">
+                        </label>
+                        <button class="btn-dark " type="submit">Publicar</button>
+                    </div>
+                </div>
             </article>
             <article class="post container-fluid col-3 ">
 
@@ -86,11 +95,8 @@
 
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
                         <button type="button" class="btn btn-primary">Post</button>
-
                     </form>
-
                     <p>atributos del lugar Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa </p>
-
                     <input type="checkbox" id="mi-checkbox">
                     <label for="mi-checkbox">Mostrar mas</label>
                     <div class="mi-elemento">
@@ -98,24 +104,18 @@
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo </p>
-
                             </li>
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
-
                             </li>
-
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
                             </li>
                         </ul>
                     </div>
-
-
                 </div>
-
             </article>
             <article class="post container-fluid col-3">
                 <div class="imgpo">
@@ -127,14 +127,10 @@
                         <label for="rango">Calificación:</label>
                         <input class="radioinput" type="text" id="comentario" name="comentarios" placeholder="Coment">
                         <label for="comentario"></label>
-
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
                         <button type="button" class="btn btn-primary">Post</button>
-
                     </form>
-
                     <p>atributos del lugar Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa </p>
-
                     <input type="checkbox" id="mi-checkbox">
                     <label for="mi-checkbox">Mostrar mas</label>
                     <div class="mi-elemento">
@@ -142,31 +138,20 @@
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo </p>
-
                             </li>
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
-
                             </li>
-
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
                             </li>
                         </ul>
                     </div>
-
-
                 </div>
-
             </article>
-
-
-
-
             </article>
-
             <article class="post container-fluid col-3">
                 <div class="imgpo">
                     <img src="../images/postimg.jpg" alt="restaurant" class="img-fluid imgp">
@@ -192,24 +177,18 @@
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo </p>
-
                             </li>
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
-
                             </li>
-
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
                             </li>
                         </ul>
                     </div>
-
-
                 </div>
-
             </article>
         </section>
         <section class="col-12 r-a-w">
@@ -218,20 +197,15 @@
                     <img src="../images/postimg.jpg" alt="restaurant" class="img-fluid imgp">
                 </div>
                 <div class="container-fluid">
-
                     <p>titulo</p>
                     <form action="calificar-comentar" class="container-fluid">
                         <label for="rango">Calificación:</label>
                         <input class="radioinput" type="text" id="comentario" name="comentarios" placeholder="Coment">
                         <label for="comentario"></label>
-
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
                         <button type="button" class="btn btn-primary">Post</button>
-
                     </form>
-
                     <p>atributos del lugar Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa </p>
-
                     <input type="checkbox" id="mi-checkbox">
                     <label for="mi-checkbox">Mostrar mas</label>
                     <div class="mi-elemento">
@@ -239,27 +213,20 @@
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo </p>
-
                             </li>
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
-
                             </li>
-
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
                             </li>
                         </ul>
                     </div>
-
-
                 </div>
-
             </article>
             <article class="post container-fluid col-3 ">
-
                 <div class="imgpo">
                     <img src="../images/postimg.jpg" alt="restaurant" class="img-fluid imgp">
                 </div>
@@ -269,14 +236,10 @@
                         <label for="rango">Calificación:</label>
                         <input class="radioinput" type="text" id="comentario" name="comentarios" placeholder="Coment">
                         <label for="comentario"></label>
-
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
                         <button type="button" class="btn btn-primary">Post</button>
-
                     </form>
-
                     <p>atributos del lugar Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa </p>
-
                     <input type="checkbox" id="mi-checkbox">
                     <label for="mi-checkbox">Mostrar mas</label>
                     <div class="mi-elemento">
@@ -284,24 +247,18 @@
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo </p>
-
                             </li>
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
-
                             </li>
-
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
                             </li>
                         </ul>
                     </div>
-
-
                 </div>
-
             </article>
             <article class="post container-fluid col-3">
                 <div class="imgpo">
@@ -316,11 +273,8 @@
 
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
                         <button type="button" class="btn btn-primary">Post</button>
-
                     </form>
-
                     <p>atributos del lugar Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa </p>
-
                     <input type="checkbox" id="mi-checkbox">
                     <label for="mi-checkbox">Mostrar mas</label>
                     <div class="mi-elemento">
@@ -328,31 +282,19 @@
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo </p>
-
                             </li>
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
-
                             </li>
-
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
                             </li>
                         </ul>
                     </div>
-
-
                 </div>
-
             </article>
-
-
-
-
-           
-
             <article class="post container-fluid col-3">
                 <div class="imgpo">
                     <img src="../images/postimg.jpg" alt="restaurant" class="img-fluid imgp">
@@ -366,11 +308,8 @@
 
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
                         <button type="button" class="btn btn-primary">Post</button>
-
                     </form>
-
                     <p>atributos del lugar Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa </p>
-
                     <input type="checkbox" id="mi-checkbox">
                     <label for="mi-checkbox">Mostrar mas</label>
                     <div class="mi-elemento">
@@ -378,29 +317,21 @@
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo </p>
-
                             </li>
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
-
                             </li>
-
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus consectetur
                                     impedit labore, animi temporibus? Fugiat, nemo</p>
                             </li>
                         </ul>
                     </div>
-
-
                 </div>
-
             </article>
         </section>
     </main>
-
-
 
     <footer>
         <div class="ftr">
@@ -428,7 +359,8 @@
         </div>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+
 
 </html>

@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&family=Manrope&family=Roboto&display=swap');
+
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 
 nav {
   width: auto;
@@ -73,6 +75,8 @@ div .ftx {
   margin: 0%;
   padding: 0%;
   background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 /*---------html-index--------*/
@@ -267,6 +271,18 @@ section .sectcar {
   justify-content: space-evenly;
 }
 
+.conmedia p {
+  color: whitesmoke;
+}
+
+.conmedia h1 {
+  color: whitesmoke;
+}
+
+.conmedia label {
+  color: whitesmoke;
+}
+
 @media (max-width:1455px) {
   .r-a-w {
     display: none;
@@ -359,10 +375,18 @@ section .sectcar {
 
 }
 
+@media (max-width:560px) {
+  .sectmap {
+    display: none;
+
+  }
+
+
+}
+
 .post {
   display: flex;
   flex-direction: row;
-
   width: 450px;
   height: 300px;
   margin: 1%;
@@ -375,7 +399,6 @@ section .sectcar {
   box-shadow: 0 0 10px 5px rgba(0 0, 0, 0.5);
   gap: 4;
 
-
 }
 
 .post p {
@@ -387,9 +410,10 @@ section .sectcar {
 .postbuscar {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   width: 450px;
   height: 300px;
+  margin: 1%;
   margin: 1%;
   margin-top: 3%;
   padding: 1%;
@@ -398,11 +422,61 @@ section .sectcar {
   border-radius: 5px;
   box-shadow: 0 0 10px 5px rgba(0 0, 0, 0.5);
   gap: 4;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
 }
 
 .postbuscar img {
   width: 85px;
   border-radius: 5px;
+  box-shadow: 0 0 10px 5px rgba(245 245, 245, 0.2);
+  justify-self: top;
+}
+
+@media (max-width:1000px) {
+  .postbuscar img {
+    padding: 4%;
+  }
+
+  /* no es un crash es un stylo el pading como overflow*/
+}
+
+.postbuscar hr {
+  color: whitesmoke;
+}
+
+.in-busqueda {
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.678);
+  box-shadow: 0 0 10px 5px rgba(0 0, 0, 0.5);
+  margin-bottom: 7px;
+
+}
+
+.in-po {
+  border-radius: 5px;
+  background-color: rgba(240, 248, 255, 0);
+  padding: 1%;
+  margin: 1%;
+  border: none;
+  background-color: rgba(245, 245, 245, 0.678);
+}
+
+/*********----*/
+.inputbusqueda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+.d-busqueda {
+  justify-content: center;
+  align-content: center;
 }
 
 .imgp {
@@ -418,8 +492,7 @@ section .sectcar {
   padding: 1%;
   margin: 1%;
   border: none;
-  border-bottom: whitesmoke;
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0.678);
 
 }
 
@@ -434,7 +507,7 @@ section .sectcar {
 
 .mi-elemento {
   display: none;
-  background-color: rgba(0, 0, 0, 0.932);
+  background-color: rgba(44, 42, 42, 0.932);
   width: 250px;
   height: auto;
   overflow: visible;
