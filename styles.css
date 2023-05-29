@@ -534,6 +534,7 @@ section .sectcar {
 #mi-checkbox:checked~.mi-elemento {
   display: block;
 }
+
 /*---------decime si no parecen del pokemon esmeralda los buttons*/
 .my-button {
   margin: 4px;
@@ -563,6 +564,7 @@ section .sectcar {
   font-family: 'Roboto', sans-serif;
   font-size: 38px;
   padding: 10px;
+  margin-top: 1;
   color: rgba(245, 245, 245, 0.534);
 
 
@@ -624,5 +626,32 @@ section .sectcar {
     font-size: 25px;
     margin: 5px;
     padding-inline-start: 5px;
+  }
+}
+
+@media (max-width:1200px) {
+  .box-faqs {
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 450px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 0 10px 5px rgba(0 0, 0, 0.5);
+  border-radius: 5px;
+  }
+
+  .img-faqs {
+    max-height: 100px;
+    max-width: 100px;
+
+  }
+  .t-faqs {
+    font-size: 18px;
+    margin: 1px;
+    padding-inline-start: 1px;
   }
 }
