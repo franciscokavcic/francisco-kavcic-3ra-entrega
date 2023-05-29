@@ -14,11 +14,11 @@
     <link rel="stylesheet" type="text/css" href="../styles.css">
 </head>
 
-<body>
+<body class="container-fluid" id="bodx">
     <header>
         <nav class="navbar navbar-expand-md navbar-light bg-light fw-bold">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html">Backpackers Network</a>
+                <a class="navbar-brand" href="../index.html">Backpackers Network</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -26,23 +26,61 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="comunidad.html">Comunidad</a>
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Perfil</a>
+                            <a class="nav-link active" aria-current="page" href="./comunidad.html">Comunidad</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">FAQs</a>
+                            <a class="nav-link" href="./perfil.html">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./faqs.html">FAQs</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <img src="/images/icono.png" alt="hombremontaña" height="55px" width="55px" style="margin-right: 3%;">
+            <img src="../images/icono.png" alt="hombremontaña" height="55px" width="55px" style="margin-right: 3%;">
         </nav>
+
     </header>
-    <main>
-        <section>
-            <article></article>
+    <main class="cont-faqs container-fluid">
+        <p class="t-faqs">Bienvenido a nuestras faqs y Onboarding. </p>
+        <section class="vid-onv container-fluid">
+            <h1 class="t-faqs">Como encontrar tu viaje.</h1>
+            <article>
+                <iframe class="v-onv" width="560" height="315" src="https://www.youtube.com/embed/MmZexg8sxyk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </article>
+        </section>
+        <section class="condicions-uso">
+            <article class="box-faqs">
+                <p class=" txt-boot-faqs">Condicones de uso</p>
+                <p class="p-fondo-box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, aperiam,
+                    exercitationem possimus
+                    expedita non ea quod, fuga nihil accusantium alias similique commodi ipsum iure dicta incidunt
+                    facere illum voluptates. Quam.</p>
+                <img src="../images/condicion-uso.jpg" alt="mause" class="img-faqs">
+            </article>
+            <article class="box-faqs">
+                <p class=" txt-boot-faqs">Acceso a datos </p>
+                <p class="p-fondo-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta voluptatibus
+                    eveniet minus,
+                    ipsum fugit aliquam cupiditate, laboriosam, veritatis sit totam tempora! Quisquam commodi culpa sed
+                    magnam hic? Sunt, vel!</p>
+                <img src="../images/faqs-datos.jpg" alt="h-etico" class="img-faqs">
+            </article>
+
+            <article class="box-faqs">
+                <p class="txt-boot-faqs">Politica de uso</p>
+                <p class="p-fondo-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum nesciunt
+                    delectus sunt.
+                    Praesentium fugiat nisi ullam dolores suscipit aperiam ipsum, vitae dolore, odit officia iure modi.
+                    Voluptatibus, fugiat voluptatem!</p>
+                <img src="../images/politica-uso.jpg" alt="nigga-ticher" class="img-faqs">
+            </article>
         </section>
     </main>
     <footer>

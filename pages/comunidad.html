@@ -18,35 +18,41 @@
 
 <body class="bodcomunidad container-fluid" id="bodx">
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light fw-bold">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html">Backpackers Network</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="comunidad.html">Comunidad</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Perfil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">FAQs</a>
-                        </li>
-                    </ul>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light bg-light fw-bold">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Backpackers Network</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./comunidad.html">Comunidad</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./perfil.html">Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./faqs.html">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <img src="/images/icono.png" alt="hombremontaña" height="55px" width="55px" style="margin-right: 3%;">
-        </nav>
+                <img src="../images/icono.png" alt="hombremontaña" height="55px" width="55px" style="margin-right: 3%;">
+            </nav>
+
+        </header>
 
     </header>
     <main class="col-12 d-grid d-flex row-cols-sm-auto container-fluid min-vh-100 mt-5 conmedia">
         <section class="sectmap col-3">
             <article>
-                <h1>Bienvenido a la comunidad</h1>
+                <h1 class="t-perfil">Bienvenido a la comunidad</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ut vitae sequi consequuntur neque fugit
                     est
                     quod explicabo, hic, nam nemo? Repellat perspiciatis delectus et quod illo fuga amet unde.</p>
@@ -70,14 +76,14 @@
                     <form action="buscar">
                         <label for="busqueda">Buscar Post</label>
                         <input class="in-po" type="text" id="busq" name="buscar" placeholder="buscar">
-                        <button class="btn btn-lg btn-secondary  fs-6">busqueda</button>
+                        <button class="my-button" type="submit">busqueda</button>
                         <hr>
                     </form>
                     <div class="inputbusqueda">
                         <input class="in-busqueda" type="text" class="text-input" placeholder="Crea tu reseña">
                         <label for="file-upload" class="file-upload-label">
                         </label>
-                        <button class="btn-dark " type="submit">Publicar</button>
+                        <button class="my-button" type="submit">Publicar</button>
                     </div>
                 </div>
             </article>
@@ -94,7 +100,7 @@
                         <label for="comentario"></label>
 
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
-                        <button type="button" class="btn btn-primary">Post</button>
+                        <button type="button" class="my-button">Post</button>
                     </form>
                     <p>atributos del lugar Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa </p>
                     <input type="checkbox" id="mi-checkbox">
@@ -128,7 +134,7 @@
                         <input class="radioinput" type="text" id="comentario" name="comentarios" placeholder="Coment">
                         <label for="comentario"></label>
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
-                        <button type="button" class="btn btn-primary">Post</button>
+                        <button type="button" class="my-button">Post</button>
                     </form>
                     <p>atributos del lugar Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa </p>
                     <input type="checkbox" id="mi-checkbox">
@@ -164,7 +170,7 @@
                         <label for="comentario"></label>
 
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
-                        <button type="button" class="btn btn-primary">Post</button>
+                        <button type="button" class="my-button">Post</button>
 
                     </form>
 
@@ -203,7 +209,7 @@
                         <input class="radioinput" type="text" id="comentario" name="comentarios" placeholder="Coment">
                         <label for="comentario"></label>
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
-                        <button type="button" class="btn btn-primary">Post</button>
+                        <button type="button" class="my-button">Post</button>
                     </form>
                     <p>atributos del lugar Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa </p>
                     <input type="checkbox" id="mi-checkbox">
@@ -237,7 +243,7 @@
                         <input class="radioinput" type="text" id="comentario" name="comentarios" placeholder="Coment">
                         <label for="comentario"></label>
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
-                        <button type="button" class="btn btn-primary">Post</button>
+                        <button type="button" class="my-button">Post</button>
                     </form>
                     <p>atributos del lugar Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa </p>
                     <input type="checkbox" id="mi-checkbox">
@@ -272,7 +278,7 @@
                         <label for="comentario"></label>
 
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
-                        <button type="button" class="btn btn-primary">Post</button>
+                        <button type="button" class="my-button">Post</button>
                     </form>
                     <p>atributos del lugar Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa </p>
                     <input type="checkbox" id="mi-checkbox">
@@ -307,7 +313,7 @@
                         <label for="comentario"></label>
 
                         <input type="range" id="rango" name="rango" min="1" max="5" step="1">
-                        <button type="button" class="btn btn-primary">Post</button>
+                        <button type="button" class="my-button">Post</button>
                     </form>
                     <p>atributos del lugar Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ipsa </p>
                     <input type="checkbox" id="mi-checkbox">
