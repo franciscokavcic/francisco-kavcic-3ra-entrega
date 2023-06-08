@@ -1,34 +1,65 @@
 .article-contenedor-lgn {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    height: auto;
-    .left-box {
-        padding-top: 1%;
-        .img-form-div{
-            box-shadow: 0 0 10px 5px rgba( 0, 0, 0.5);
-            @media (max-width:400px){
-              display: none;
-             }
-          }
-    }
-    .left-box {
-        padding-top: 1%;
-        .placeholder {
-            font-size: 16px;
-         
-          }
-        
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: auto;
+
+  .left-box {
+    padding-top: 1%;
+
+    .img-form-div {
+      box-shadow: 0 0 10px 5px rgba(0, 0, 0.5);
+
+      @media (max-width:400px) {
+        display: none;
       }
-}
-@media (max-width:600px) {
-    .article-contenedor-lgn{
-      max-width: 340px;
-      max-width: auto;
     }
-  
-  
   }
 
-  
-  
+  .right-box {
+    .botonperfil:focus{
+      animation-name: aniboton;
+      animation-duration: 1s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-play-state: paused;
+
+    }
+
+    .botonperfil:hover {
+      animation-play-state: running;
+    }
+
+    @keyframes aniboton {
+      0% {
+        background-color: rgb(179, 166, 166)
+      }
+
+      50% {
+        background-color: crimson;
+      }
+
+      100% {
+        background-color: rgba(26, 223, 26, 0.262);
+      }
+    }
+
+    /*---butons---*/
+    padding-top: 1%;
+
+    .placeholder {
+      font-size: 16px;
+
+    }
+
+  }
+}
+
+@media (max-width:600px) {
+  .article-contenedor-lgn {
+    max-width: 340px;
+    max-width: auto;
+  }
+
+
+}

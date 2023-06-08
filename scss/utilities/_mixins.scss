@@ -1,8 +1,9 @@
-@mixin tarjetadecomunidad {display: flex;
+@mixin tarjetadecomunidad{display: flex;
+    display: flex;
     flex-direction: row;
     width: 490px;
     height: auto;
-    margin: 1%;
+    margin: 20px;
     margin-top: 1%;
     padding: 1%;
     gap: 10px;
@@ -10,5 +11,19 @@
     justify-content: center;
     border-radius: 5px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0.5);
-    gap: 4px;
+}
+@mixin imgaen-post{
+    height: auto;
+    padding:0%;
+    margin: 0%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0.5);
+
+}
+
+@mixin fontstylocards{
+    font-weight: 500;
+    font-size: 17px;
+    font-family:'Roboto', sans-serif;
+    
 }

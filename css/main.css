@@ -119,10 +119,32 @@ header nav {
     display: none;
   }
 }
-.article-contenedor-lgn .left-box {
+.article-contenedor-lgn .right-box {
+  /*---butons---*/
   padding-top: 1%;
 }
-.article-contenedor-lgn .left-box .placeholder {
+.article-contenedor-lgn .right-box .botonperfil:focus {
+  animation-name: aniboton;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+.article-contenedor-lgn .right-box .botonperfil:hover {
+  animation-play-state: running;
+}
+@keyframes aniboton {
+  0% {
+    background-color: rgb(179, 166, 166);
+  }
+  50% {
+    background-color: crimson;
+  }
+  100% {
+    background-color: rgba(26, 223, 26, 0.262);
+  }
+}
+.article-contenedor-lgn .right-box .placeholder {
   font-size: 16px;
 }
 
@@ -300,17 +322,6 @@ header nav {
   margin: 1%;
   border: none;
   background-color: rgb(176, 214, 214);
-}
-.main-comunidad .article-tira-1 .mi-elemento-post {
-  display: none;
-  background-color: rgba(44, 42, 42, 0.932);
-  width: 250px;
-  height: auto;
-  overflow: visible;
-  position: sticky;
-}
-.main-comunidad .article-tira-1 #mi-checkbox:checked ~ .mi-elemento {
-  display: block;
 }
 .main-comunidad .postbuscar-article {
   display: flex;
