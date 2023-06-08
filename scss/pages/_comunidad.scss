@@ -1,0 +1,281 @@
+.main-comunidad {
+  display: flex;
+  text-align: start;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  p {
+    color: whitesmoke;
+  }
+
+  h1 {
+    color: whitesmoke;
+  }
+
+  label {
+    color: whitesmoke;
+  }
+  .my-button {
+    margin: 4px;
+    padding: 5px;
+    height: 32px;
+    width: 90px;
+    border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0.5);
+    background: linear-gradient(to bottom, rgba(83, 47, 30, 0.938), rgba(22, 78, 92, 0.336));
+  }
+  /*--- my butun es genera----*/
+
+  .titulo-perfil {
+    font-size: 40px;
+    font-weight: 600;
+    
+  }
+
+
+
+  .section-map {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    max-height: 600px;
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0.5);
+
+
+  }
+
+  .post p {
+    color: aliceblue;
+
+
+  }
+
+  .article-tira-1 {
+    display: flex;
+    flex-direction: row;
+    width: 490px;
+    height: auto;
+    margin: 20px;
+    margin-top: 1%;
+    padding: 1%;
+    gap: 10px;
+    border-style: solid;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0.5);
+  
+    .imgpo {
+      height: auto;
+      padding:0%;
+      margin: 0%;
+      border-radius: 5px;
+      box-shadow: 0 0 10px 5px rgba(0, 0, 0.5);
+ 
+      
+    }
+    .calificar-comentar-form-post{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3px;
+      margin: 1%;
+      padding: 1%;
+      .post-article-input{
+        border-radius: 5px;
+        background-color: rgba(4, 5, 2);
+        padding: 1%;
+        margin: 1%;
+        border: none;
+        background-color: rgb(176, 214, 214);
+      
+      }
+    }
+    .mi-elemento-post {
+      display: none;
+      background-color: rgba(44, 42, 42, 0.932);
+      width: 250px;
+      height: auto;
+      overflow: visible;
+      position: sticky;
+    
+    
+    }
+    
+    #mi-checkbox:checked~.mi-elemento {
+      display: block;
+    }
+  }
+
+  .postbuscar-article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 490px;
+    height: 300px;
+    margin: 20px;
+    padding: 1%;
+    gap: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0.5);
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+
+    .postbuscar-article hr {
+      color: whitesmoke;
+    }
+
+    .postbuscar-article img {
+      width: auto;
+      border-radius: 5px;
+      box-shadow: 0 0 10px 5px rgba(2,2,2);
+      justify-self: top;
+    }
+
+    .div-form-buscar {
+      justify-content: center;
+      align-content: center;
+
+      .input-buscar-post {
+        border-radius: 5px;
+        background-color: rgba(240, 248, 255, 0);
+        padding: 1%;
+        margin: 1%;
+        border: none;
+        background-color: rgba(245, 245, 245, 0.678);
+      }
+
+      .inputbusqueda-div-hijo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .input-busqueda {
+          border-radius: 5px;
+          background-color: rgba(245, 245, 245, 0.678);
+          box-shadow: 0 0 10px 5px rgba(0, 0, 0.5);
+          margin-bottom: 7px;
+
+        }
+
+
+      }
+    }
+
+  }
+}
+
+@media (max-width:1024px) {
+  .titulo-perfil {
+    font-size: 30px;
+  }
+}
+
+@media (max-width:1660px) {
+  .section-2-crads-post {
+    display: none;
+
+
+  }
+
+}
+
+@media (max-width:1000px) {
+  .section-2-crads-post {
+    display: block;
+
+
+  }
+
+}
+
+@media (max-width:1600px) {
+  .main-comunidad {
+    display: flex;
+    gap: 1;
+    flex-wrap: wrap;
+  }
+
+  .mediatupost {
+    display: flex;
+    flex-direction: row;
+    gap: 1;
+
+  }
+}
+
+@media (max-width:1000px) {
+  .mediatupost {
+    display: flex;
+    flex-direction: column;
+    gap: 3;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    gap: 1;
+  }
+  }
+  @media (max-width:560px) {
+    .section-map{
+      display: none;
+  
+    }
+  }
+  @media (max-width:1000px) {
+    .postbuscar-article img {
+      padding: 4%;
+    }
+  
+    /* no es un crash es un stylo el pading como overflow*/
+  }
+  
+@media (max-width:1000px) {
+  .mediatupost {
+    display: flex;
+    flex-direction: column;
+    gap: 3;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    gap: 1;
+  }
+
+  .main-comunidad {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    vertical-align: middle;
+    gap: 3;
+
+
+  }
+
+  .section-map iframe {
+    display: none;
+  }
+
+  .post {
+    max-width: 350px;
+    height: auto;
+    margin: auto;
+  }
+
+  .postbuscar {
+    max-width: 350px;
+    height: auto;
+    margin: auto;
+
+  }
+}

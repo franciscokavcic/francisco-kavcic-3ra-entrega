@@ -21,27 +21,9 @@ header {
   /*grid-area: hea;*/
 }
 
-footer {
-
-  height: 130px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(51, 17, 3, 0.103);
-  margin-top: 4%;
-  /*grid-area: foot;*/
 
 
-}
 
-footer .ic {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 195px;
-  height: 130px;
-  padding-top: 55px;
-}
 
 footer .ftr {
   display: flex;
@@ -428,7 +410,7 @@ section .section-carrusel{
 .postbuscar-article img {
   width: auto;
   border-radius: 5px;
-  box-shadow: 0 0 10px 5px rgba(245 245, 245, 0.2);
+  box-shadow: 0 0 10px 5px rgba(2,2,2);
   justify-self: top;
 }
 
@@ -477,10 +459,10 @@ section .section-carrusel{
   align-content: center;
 }
 
-.imgp {
+.imgpo {
 
   border-radius: 5px;
-  box-shadow: 0 0 10px 5px rgba(0 0, 0, 0.5)
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0.5)
 }
 
 
