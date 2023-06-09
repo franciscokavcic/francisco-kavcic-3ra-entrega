@@ -252,6 +252,57 @@ header nav {
   justify-content: space-evenly;
   /*--- my butun es genera----*/
 }
+.main-comunidad .newcard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: inline-block;
+  max-height: 280px;
+  max-width: 490px;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px rgba(87, 56, 42, 0.026);
+}
+.main-comunidad .newcard .imcard {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.main-comunidad .newcard .imcard .imgcard {
+  border-radius: 5px;
+}
+.main-comunidad .newcard p {
+  opacity: 0.8;
+  max-width: 280px;
+}
+.main-comunidad .newcard .textocard {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.main-comunidad .newcard .textocard form {
+  opacity: 0.8;
+}
+.main-comunidad .newcard .textocard input {
+  width: 150px;
+}
+.main-comunidad .newcard .textocard .plaholder {
+  opacity: 0.5;
+  border-radius: 3px;
+  border-style: none;
+  margin-top: 8px;
+}
+.main-comunidad .newcard .botoncard {
+  border-radius: 20px;
+  height: 25px;
+  width: 60px;
+  background-color: rgba(114, 85, 134, 0.553);
+  opacity: 0.5;
+  border-style: hidden;
+  box-shadow: 0 0 2px 2px rgba(114, 85, 134, 0.553);
+}
 .main-comunidad p {
   color: whitesmoke;
 }
@@ -260,16 +311,6 @@ header nav {
 }
 .main-comunidad label {
   color: whitesmoke;
-}
-.main-comunidad .my-button {
-  margin: 4px;
-  padding: 5px;
-  height: 32px;
-  width: 90px;
-  border-radius: 5px;
-  color: whitesmoke;
-  box-shadow: 0 0 5px 5px rgb(0, 0, 1);
-  background: linear-gradient(to bottom, rgba(83, 47, 30, 0.938), rgba(22, 78, 92, 0.336));
 }
 .main-comunidad .titulo-perfil {
   font-size: 40px;
@@ -301,29 +342,6 @@ header nav {
   justify-content: center;
   border-radius: 5px;
   box-shadow: 0 0 10px 5px rgb(0, 0, 1);
-}
-.main-comunidad .article-tira-1 .imgpo {
-  height: auto;
-  padding: 0%;
-  margin: 0%;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 5px rgb(0, 0, 1);
-}
-.main-comunidad .article-tira-1 .calificar-comentar-form-post {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 3px;
-  margin: 1%;
-  padding: 1%;
-}
-.main-comunidad .article-tira-1 .calificar-comentar-form-post .post-article-input {
-  border-radius: 5px;
-  background-color: rgb(4, 5, 2);
-  padding: 1%;
-  margin: 1%;
-  border: none;
-  background-color: rgb(176, 214, 214);
 }
 .main-comunidad .postbuscar-article {
   display: flex;
@@ -461,6 +479,7 @@ header nav {
     margin: auto;
   }
 }
+/*-----card-test-----------*/
 footer {
   display: flex;
   flex-direction: row;
