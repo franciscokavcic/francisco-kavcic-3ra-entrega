@@ -1,17 +1,17 @@
 footer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 15px;
-    padding-top: 15px;
-    height: 130px;
-    justify-content: center;
-    align-items: center;
-   
-    background-color: rgba(51, 17, 3, 0.103);
-   
-  
-   
-.ftr {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  padding-top: 15px;
+  height: 130px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(51, 17, 3, 0.103);
+
+
+
+  .ftr {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -20,10 +20,11 @@ footer {
     text-align: center;
     gap: 10px;
   }
-  p{
+
+  p {
     margin-top: 15px;
   }
 
 
-  
-  }
+
+}

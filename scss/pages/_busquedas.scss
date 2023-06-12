@@ -1,41 +1,46 @@
-body{
+body {
     margin: 1em;
-    .bsdestino{
+
+    .bsdestino {
         font-family: 'Roboto', sans-serif;
         color: whitesmoke;
-        margin:1em ;
-        input{
+        margin: 1em;
+        font-weight: 600;
+        input {
             border-radius: 5px;
-            
+
         }
-        button{
+
+        button {
             border-radius: 5px;
             width: 90px;
             background-color: rgba(92, 44, 22, 0.84);
             font-family: 'Roboto', sans-serif;
             color: whitesmoke;
-          
-            }
+
+        }
     }
 
-.galery{
-    margin: 0.5em;
-    columns: 5 320px;
-    column-gap: 0.7em;
-    img{
-        width: 100%;
-        margin-bottom: 0.5em;
-        display: block;
-        outline: 2px solid rgba(219, 207, 207, 0.58);
-        transition: all 300ms;
-        position: relative;
+    .galery {
+        margin: 0.5em;
+        columns: 5 320px;
+        column-gap: 0.7em;
 
-        
-        
+        img {
+            width: 100%;
+            margin-bottom: 0.5em;
+            display: block;
+            outline: 2px solid rgba(219, 207, 207, 0.58);
+            transition: all 300ms;
+            position: relative;
+
+
+
+        }
+
+        img:hover {
+            transform: scale(0.95);
+
+        }
     }
-   img:hover{
-    transform: scale(0.95);
-    
-   }
-}
 }
