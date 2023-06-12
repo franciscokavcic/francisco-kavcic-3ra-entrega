@@ -84,6 +84,12 @@ header nav {
 .main-index .cards-main .card .img-cards {
   border-top-left-radius: 4%;
   border-top-right-radius: 4%;
+  transition: all 300ms;
+  position: relative;
+}
+.main-index .cards-main .card img:hover {
+  transform: scale(1.05);
+  border-radius: 5px;
 }
 
 /*------------------cards-------------------------*/
@@ -98,6 +104,7 @@ header nav {
   align-items: center;
   margin: 20px;
   padding: 20px;
+  opacity: 0.8;
 }
 @media (max-width: 600px) {
   .carru-myclass {
@@ -110,6 +117,7 @@ header nav {
   justify-content: center;
   align-items: start;
   height: auto;
+  opacity: 0.8;
 }
 .article-contenedor-lgn .left-box {
   padding-top: 1%;
@@ -180,6 +188,8 @@ header nav {
   display: flex;
   flex-direction: row;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin-top: 3%;
   padding-top: 3%;
@@ -232,7 +242,7 @@ header nav {
     max-width: auto;
   }
 }
-@media (max-width: 1200px) and (max-width: 510px) {
+@media (max-width: 1200px) and (max-width: 520px) {
   .img-faqs {
     display: none;
   }
@@ -267,9 +277,8 @@ header nav {
 .main-comunidad .newcard .imcard {
   display: flex;
   justify-content: center;
+  width: 100%;
   margin-top: 5px;
-}
-.main-comunidad .newcard .imcard .imgcard {
   border-radius: 5px;
 }
 .main-comunidad .newcard p {
@@ -298,10 +307,11 @@ header nav {
   border-radius: 20px;
   height: 25px;
   width: 60px;
-  background-color: rgba(114, 85, 134, 0.553);
+  background-color: rgba(89, 21, 135, 0.553);
   opacity: 0.5;
   border-style: hidden;
   box-shadow: 0 0 2px 2px rgba(114, 85, 134, 0.553);
+  color: whitesmoke;
 }
 .main-comunidad p {
   color: whitesmoke;
@@ -320,11 +330,15 @@ header nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 500px;
-  max-height: 600px;
-  margin: 1%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  max-height: auto;
+  margin: 4%;
   padding: 1%;
   box-shadow: 0 0 10px 5px rgb(0, 0, 1);
+  gap: 10px;
 }
 .main-comunidad .post p {
   color: aliceblue;
@@ -332,7 +346,7 @@ header nav {
 .main-comunidad .article-tira-1 {
   display: flex;
   flex-direction: row;
-  width: 490px;
+  width: auto;
   height: auto;
   margin: 20px;
   margin-top: 1%;
@@ -342,12 +356,13 @@ header nav {
   justify-content: center;
   border-radius: 5px;
   box-shadow: 0 0 10px 5px rgb(0, 0, 1);
+  overflow: hidden;
 }
 .main-comunidad .postbuscar-article {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 490px;
+  width: auto;
   height: 300px;
   margin: 20px;
   padding: 1%;
@@ -376,7 +391,7 @@ header nav {
   border-radius: 20px;
   height: 25px;
   width: 80px;
-  background-color: rgba(114, 85, 134, 0.553);
+  background-color: rgba(100, 42, 138, 0.553);
   opacity: 0.7;
   border-style: hidden;
   box-shadow: 0 0 2px 2px rgba(114, 85, 134, 0.553);
@@ -429,8 +444,11 @@ header nav {
     gap: 1;
   }
 }
-@media (max-width: 560px) {
+@media (max-width: 590px) {
   .section-map {
+    display: none;
+  }
+  .section-map p {
     display: none;
   }
 }
@@ -477,6 +495,41 @@ header nav {
   }
 }
 /*-----card-test-----------*/
+body {
+  margin: 1em;
+}
+body .bsdestino {
+  font-family: "Roboto", sans-serif;
+  color: whitesmoke;
+  margin: 1em;
+}
+body .bsdestino input {
+  border-radius: 5px;
+}
+body .bsdestino button {
+  border-radius: 5px;
+  width: 90px;
+  background-color: rgba(92, 44, 22, 0.84);
+  font-family: "Roboto", sans-serif;
+  color: whitesmoke;
+}
+body .galery {
+  margin: 0.5em;
+  columns: 5 320px;
+  column-gap: 0.7em;
+}
+body .galery img {
+  width: 100%;
+  margin-bottom: 0.5em;
+  display: block;
+  outline: 2px solid rgba(219, 207, 207, 0.58);
+  transition: all 300ms;
+  position: relative;
+}
+body .galery img:hover {
+  transform: scale(0.95);
+}
+
 footer {
   display: flex;
   flex-direction: row;

@@ -1,7 +1,8 @@
-@import"./_base.scss/reset.scss";
-@import "./_layout.scss/header.scss";
-@import "./pages/index";
-@import "./pages/perfil";
-@import "./pages/faqs";
-@import "./pages/comunidad";
-@import "./_layout.scss/footer.scss"
+@import"./base/_reset.scss";
+@import "./layout/_header.scss";
+@import "./pages/_index";
+@import "./pages/_perfil";
+@import "./pages/_faqs";
+@import "./pages/_comunidad";
+@import "./pages/_busquedas";
+@import "./layout/footer.scss"
