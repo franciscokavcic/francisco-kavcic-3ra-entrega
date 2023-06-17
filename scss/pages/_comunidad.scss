@@ -245,12 +245,7 @@
 
 @media (max-width:590px) {
   .section-map {
-    p {
-      display: none;
-    }
-
     display: none;
-
   }
 }
 
@@ -305,6 +300,11 @@
 
   }
 
+}
+@media (max-width:500px){
+  .section-map{
+    display: none;
+  }
 }
 
 /*-----card-test-----------*/

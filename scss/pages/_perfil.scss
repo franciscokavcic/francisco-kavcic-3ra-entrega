@@ -24,7 +24,10 @@
       animation-timing-function: linear;
       animation-iteration-count: infinite;
       animation-play-state: paused;
-
+      img{
+        width:20px; 
+        height:20px;
+      }
     }
 
     .botonperfil:hover {

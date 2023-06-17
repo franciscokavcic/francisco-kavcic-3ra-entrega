@@ -1,12 +1,18 @@
 body {
     margin: 1em;
-
+      h1.bush{ 
+        margin-left:1em;
+        color: whitesmoke;
+        opacity: 0.80;
+      }
     .bsdestino {
         font-family: 'Roboto', sans-serif;
         color: whitesmoke;
         margin: 1em;
         font-weight: 600;
-        input {
+        display: inline-block;
+        
+        .iclass{
             border-radius: 5px;
 
         }
@@ -42,5 +48,10 @@ body {
             transform: scale(0.95);
 
         }
+    }
+}
+@media (max-width:775px){
+    h1.bush{
+         visibility: hidden;
     }
 }

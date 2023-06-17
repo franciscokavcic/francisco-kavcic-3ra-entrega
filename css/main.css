@@ -26,6 +26,11 @@ header nav {
   width: auto;
   margin: 0%;
 }
+header nav img.imheader {
+  height: 55px;
+  width: 55px;
+  margin-right: 3%;
+}
 
 .main-index {
   display: flex;
@@ -33,7 +38,7 @@ header nav {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-top: 1%;
-  background-image: url(/images/bgmain.jpg);
+  background-image: url(../images/bgmain.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -41,6 +46,15 @@ header nav {
   justify-content: center;
   align-items: center;
   /*---------------------form calendar---------------------------*/
+}
+.main-index .textopresentacion {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 2%;
 }
 .main-index header {
   margin-left: auto;
@@ -50,7 +64,7 @@ header nav {
   font-size: 22px;
   font-weight: 600;
 }
-.main-index .contenedor-formulario {
+.main-index .contenedorFormulario {
   text-align: center;
   display: flex;
   align-items: center;
@@ -62,13 +76,13 @@ header nav {
   padding: 5px;
   border-radius: 10px;
 }
-.main-index .contenedor-formulario .form-calendario {
+.main-index .contenedorFormulario .form-calendario {
   display: flex;
   flex-wrap: wrap;
   padding: 1%;
   border-radius: 3%;
 }
-.main-index .contenedor-formulario .form-calendario .boton-calenar {
+.main-index .contenedorFormulario .form-calendario .boton-calenar {
   display: flex;
   box-shadow: 0 0 10px 5px rgb(77, 77, 207);
   margin-bottom: 35px;
@@ -118,6 +132,11 @@ header nav {
   }
 }
 
+@media (max-width: 770px) {
+  .textopresentacion {
+    display: none;
+  }
+}
 .article-contenedor-lgn {
   display: flex;
   justify-content: center;
@@ -146,6 +165,10 @@ header nav {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-play-state: paused;
+}
+.article-contenedor-lgn .right-box .botonperfil:focus img {
+  width: 20px;
+  height: 20px;
 }
 .article-contenedor-lgn .right-box .botonperfil:hover {
   animation-play-state: running;
@@ -183,10 +206,18 @@ header nav {
   font-family: "Roboto", sans-serif;
   font-size: 38px;
   padding: 10px;
+  margin-top: 10px;
+  color: rgba(245, 245, 245, 0.534);
+}
+.cont-faqs .textofaqs {
+  font-family: "Roboto", sans-serif;
+  font-size: 38px;
+  padding-top: 2em;
   margin-top: 1;
   color: rgba(245, 245, 245, 0.534);
 }
 .cont-faqs .video-faqs {
+  border: 3px black;
   border-radius: 5px;
   box-shadow: 0 0 10px 5px rgb(0, 0, 1);
 }
@@ -454,9 +485,6 @@ header nav {
   .section-map {
     display: none;
   }
-  .section-map p {
-    display: none;
-  }
 }
 @media (max-width: 1000px) {
   .postbuscar-article img {
@@ -500,17 +528,28 @@ header nav {
     margin: auto;
   }
 }
+@media (max-width: 500px) {
+  .section-map {
+    display: none;
+  }
+}
 /*-----card-test-----------*/
 body {
   margin: 1em;
+}
+body h1.bush {
+  margin-left: 1em;
+  color: whitesmoke;
+  opacity: 0.8;
 }
 body .bsdestino {
   font-family: "Roboto", sans-serif;
   color: whitesmoke;
   margin: 1em;
   font-weight: 600;
+  display: inline-block;
 }
-body .bsdestino input {
+body .bsdestino .iclass {
   border-radius: 5px;
 }
 body .bsdestino button {
@@ -537,6 +576,11 @@ body .galery img:hover {
   transform: scale(0.95);
 }
 
+@media (max-width: 775px) {
+  h1.bush {
+    visibility: hidden;
+  }
+}
 footer {
   display: flex;
   flex-direction: row;
@@ -555,6 +599,10 @@ footer .ftr {
   align-items: center;
   text-align: center;
   gap: 10px;
+}
+footer .ftr img.imfooter {
+  width: 35px;
+  height: 35px;
 }
 footer p {
   margin-top: 15px;
