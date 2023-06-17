@@ -13,16 +13,22 @@ body {
         display: inline-block;
         
         .iclass{
-            border-radius: 5px;
+            border-radius: 4px;
+            box-shadow: 0 0 5px whitesmoke;
+            margin-right: 5px;
+            margin-left: 5px;
+                
 
         }
 
         button {
-            border-radius: 5px;
+            border-radius: 4px;
             width: 90px;
-            background-color: rgba(92, 44, 22, 0.84);
+            background-color: rgba(103, 106, 112, 0.84);
+            border-style: none;
             font-family: 'Roboto', sans-serif;
             color: whitesmoke;
+            box-shadow:0 0 10px rgba(237, 235, 235, 0.572);
 
         }
     }
