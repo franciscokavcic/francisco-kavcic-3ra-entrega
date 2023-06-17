@@ -159,6 +159,10 @@ header nav img.imheader {
   /*---butons---*/
   padding-top: 1%;
 }
+.article-contenedor-lgn .right-box img {
+  width: 20px;
+  height: 20px;
+}
 .article-contenedor-lgn .right-box .botonperfil:focus {
   animation-name: aniboton;
   animation-duration: 1s;

@@ -18,6 +18,10 @@
   }
 
   .right-box {
+    img{
+      width:20px; 
+      height:20px;
+    }
     .botonperfil:focus {
       animation-name: aniboton;
       animation-duration: 1s;
@@ -29,7 +33,6 @@
         height:20px;
       }
     }
-
     .botonperfil:hover {
       animation-play-state: running;
     }
